@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -95,5 +96,32 @@
         </div>
       </div>
     </section>
+    <script>
+      gsap.from(".logo ", 1.4, {
+        opacity: 0,
+        x: 40,
+        ease: "power3.inOut",
+        stagger: 0.2,
+      });
+
+      gsap.from(".nav-links li", 1.4, {
+        opacity: 0,
+        x: 40,
+        ease: "power3.inOut",
+        stagger: 0.2,
+      });
+      gsap.from(".hero-container h1 ", 1.4, {
+        opacity: 0,
+        x: -100,
+        ease: "power3.inOut",
+        stagger: 0.2,
+      });
+      gsap.from(".hero-container p ", 1.4, {
+        opacity: 0,
+        x: -200,
+        delay: 0.18,
+        ease: "power2.inOut",
+      });
+    </script>
   </body>
 </html>
