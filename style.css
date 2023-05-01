@@ -92,6 +92,7 @@ header {
   margin: 20px;
 }
 .main {
+  overflow: hidden;
   padding: 1em;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -99,6 +100,7 @@ header {
   gap: 1em;
 }
 .box1 {
+  overflow: hidden;
   position: relative;
   left: -10%;
   display: flex;
@@ -124,6 +126,7 @@ header {
   margin-left: 20px;
 }
 .box2 {
+  overflow: hidden;
   border-left: 1px solid black;
 }
 .text1 li {
@@ -156,7 +159,6 @@ header {
 .container-image {
   font-family: sans-serif;
   margin: 0px;
-  margin-top: 5vh;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   align-items: center;
@@ -176,7 +178,6 @@ header {
 .Text_1 h3 {
   font-family: "Share Tech Mono";
   font-weight: 400;
-  line-height: 2.6rem;
   font-size: 3vw;
   text-transform: uppercase;
   display: flex;
@@ -209,6 +210,15 @@ header {
 }
 .logo img {
   height: 4vh;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+.photo {
+  height: 100vh;
 }
 
 /* Resposive */
