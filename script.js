@@ -59,17 +59,18 @@ gsap.from(".image_1 img", 1.3, {
 });
 gsap.from(".Text_1 h3", 1.3, {
   opacity: 0,
+  delay: 0.5,
   y: 200,
   ease: "power2.inOut",
   scrollTrigger: {
-    scrub: 1.5,
+    scrub: 1,
     trigger: ".Text_1",
     end: "center center",
   },
 });
 gsap.from(".image-wrapper", 1.3, {
-  opacity: 0,
-  y: 200,
+  opacity: -1,
+  y: 300,
   ease: "circ",
   scrollTrigger: {
     scrub: 1.5,

@@ -201,10 +201,10 @@ header {
   padding: 2em;
   border-top: 1px solid rgb(42, 42, 42);
   overflow: hidden;
-  margin: 20px 36px;
   border-bottom: 1px solid black;
 }
 .Title h3 {
+  letter-spacing: 2px;
   text-rendering: geometricPrecision;
   -webkit-font-smoothing: antialiased;
   font-family: "Bebas Neue", cursive;
@@ -232,6 +232,41 @@ header {
 }
 .photo {
   height: 100vh;
+}
+.footer-wrapper {
+  margin-top: 3vh;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.right-side {
+  padding-right: 18vw;
+}
+
+.right-side h5 {
+  font-family: "Jaldi", sans-serif;
+  padding: 5px 0px 5px 0em;
+}
+.right-side h4 {
+  border-bottom: #000000 solid 1px;
+  padding: 5px 0em 5px 0em;
+}
+.left-side {
+  align-items: center;
+}
+.left-side h3 {
+  font-family: "Bebas Neue", cursive;
+  color: #2a2a2a;
+  font-size: 2.5rem;
+  text-align: center;
+}
+.copy {
+  margin: 0.8em;
+  display: flex;
+  justify-content: center;
 }
 
 /* Resposive */
@@ -306,7 +341,7 @@ header {
   .Text_1 h3 {
     font-family: "Bebas Neue", cursive;
     color: #181818;
-    margin: 4rem;
+    margin: 3rem;
     font-weight: 400;
     font-size: 10vw;
     line-height: 0.7em;
