@@ -46,12 +46,13 @@ gsap.from(".box2", 1.3, {
     end: "center center",
   },
 });
-gsap.from(".image_1 img", 3, {
+gsap.from(".image_1 img", 1.3, {
   opacity: 0,
   y: 200,
+  delay: 0.5,
   ease: "power2.inOut",
   scrollTrigger: {
-    scrub: 1.5,
+    scrub: 1,
     trigger: ".image_1",
     end: "center center",
   },
@@ -66,12 +67,12 @@ gsap.from(".Text_1 h3", 1.3, {
     end: "center center",
   },
 });
-gsap.from(".image-wrapper", 1, {
+gsap.from(".image-wrapper", 1.3, {
   opacity: 0,
   y: 200,
-  ease: "power2.inOut",
+  ease: "circ",
   scrollTrigger: {
-    scrub: true,
+    scrub: 1.5,
     trigger: ".image-wrapper",
     end: "center center",
   },
