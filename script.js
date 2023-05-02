@@ -46,23 +46,33 @@ gsap.from(".box2", 1.3, {
     end: "center center",
   },
 });
-gsap.from(".image_1", 1, {
-  opacity: 1,
+gsap.from(".image_1 img", 3, {
+  opacity: 0,
   y: 200,
   ease: "power2.inOut",
   scrollTrigger: {
     scrub: 1.5,
     trigger: ".image_1",
-    end: "bottom center",
+    end: "center center",
   },
 });
-gsap.from(".Text_1", 1, {
-  opacity: 0.9,
+gsap.from(".Text_1 h3", 1.3, {
+  opacity: 0,
   y: 200,
   ease: "power2.inOut",
   scrollTrigger: {
     scrub: 1.5,
     trigger: ".Text_1",
-    end: "bottom center",
+    end: "center center",
+  },
+});
+gsap.from(".image-wrapper", 1, {
+  opacity: 0,
+  y: 200,
+  ease: "power2.inOut",
+  scrollTrigger: {
+    scrub: true,
+    trigger: ".image-wrapper",
+    end: "center center",
   },
 });
