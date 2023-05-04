@@ -70,11 +70,12 @@ gsap.from(".Text_1 h3", 1.3, {
 });
 gsap.from(".image-wrapper", 1.3, {
   opacity: -1,
-  y: 300,
+  y: 400,
   ease: "circ",
   scrollTrigger: {
     scrub: 1.5,
     trigger: ".image-wrapper",
+    end: "center center",
   },
 });
 gsap.from(".text-wrapper1 p", 1.5, {
